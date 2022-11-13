@@ -18,6 +18,8 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+##Swagger documentation available on http://localhost:3000/api
+
 ##You will need .env file also to include in root folder so here is an example:
 ```bash
 DB_HOST='localhost'
