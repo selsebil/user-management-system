@@ -19,11 +19,11 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 You will need .env file also to include in root folder
-It should look like this:
+Example:
 ```bash
 DB_HOST='localhost'
 DB_PORT=5432
-DB_USERNAME=
-DB_PASSWORD=
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
 DB_NAME='user_management_system'
 ```
