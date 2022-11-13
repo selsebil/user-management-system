@@ -26,3 +26,4 @@ DB_USERNAME=your_username
 DB_PASSWORD=your_password
 DB_NAME='user_management_system'
 ```
+For running locally you will to install Docker and DBeaver/PgAdmin to connect to database
