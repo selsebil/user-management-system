@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_DB: user_management_system
+      POSTGRES_PASSWORD: root
+    ports:
+      - 5432:5432

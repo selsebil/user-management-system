@@ -1,0 +1,21 @@
+{
+  "extends": "../../.eslintrc.json",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": false
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["*.d.ts"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-await-in-loop": "off",
+    "camelcase": "off",
+    "no-param-reassign": "off",
+    "max-classes-per-file": "off",
+    "no-nested-ternary": "off"
+  }
+}
