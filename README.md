@@ -18,8 +18,7 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-You will need .env file also to include in root folder
-Example:
+##You will need .env file also to include in root folder so here is an example:
 ```bash
 DB_HOST='localhost'
 DB_PORT=5432
